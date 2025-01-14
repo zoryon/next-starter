@@ -1,7 +1,7 @@
 # defining services (only nextjs for now)
 services:
   nextjs:
-    image: zoryon/next-starter:${ENV}-23.5.0-alpine3.20
+    image: zoryon/next-starter-${ENV}:1.0
     container_name: next-starter
     build: 
       context: ./
